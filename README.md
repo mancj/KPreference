@@ -25,4 +25,13 @@ class ServiceRepository @Inject constructor(
     
 }
 ```
+
+Add library to your project. 
+```gradle
+dependencies {
+    ...
+    implementation 'com.mancj:kpreference:0.1.3'
+}
+```
+
 # 🤩🤩🤩
