@@ -1,4 +1,6 @@
 # KPreference ⚙️
+ <a href='https://bintray.com/mancj/maven/kpreference/_latestVersion'><img src='https://api.bintray.com/packages/mancj/maven/kpreference/images/download.svg'></a>
+
 
 **Edit SharedPreferences as easy as possible!💥🔥**
 ---
