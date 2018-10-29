@@ -13,9 +13,9 @@ interface and override the `SharedPreferences`
 ```kotlin
 class ServiceRepository @Inject constructor(
     override val preferences: SharedPreferences /* override this */
-) : PreferenceHolder { /* implement this */
+) : PreferenceHolder { /* implement this interface */
    
-   // all preferences will be saved to the `preferences` variable 
+   // all preferences will be saved to the `preferences` object 
    val isFirstLaunch: Boolean by BooleanPreference(false) // false - default value
   
    val userToken: String by StringPreference("default value")
