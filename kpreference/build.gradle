@@ -10,14 +10,14 @@ ext {
 
     publishedGroupId = 'com.mancj'
     libraryName = 'KPreference'
-    artifact = 'kpref'
+    artifact = 'kpreference'
 
     libraryDescription = 'Android preferences with Kotlin made easy'
 
     siteUrl = 'https://github.com/mancj/KPreference'
     gitUrl = 'https://github.com/mancj/KPreference'
 
-    libraryVersion = '0.1.2'
+    libraryVersion = '0.1.4'
 
     developerId = 'mancj'
     developerName = 'Mancj'
@@ -91,11 +91,11 @@ bintray {
 
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 28
 
     defaultConfig {
-        minSdkVersion 19
-        targetSdkVersion 27
+        minSdkVersion 16
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
 
@@ -119,7 +119,7 @@ sourceSets {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
