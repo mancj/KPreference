@@ -17,7 +17,7 @@ ext {
     siteUrl = 'https://github.com/mancj/KPreference'
     gitUrl = 'https://github.com/mancj/KPreference'
 
-    libraryVersion = '0.1.4'
+    libraryVersion = '0.2.0'
 
     developerId = 'mancj'
     developerName = 'Mancj'
