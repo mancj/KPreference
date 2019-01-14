@@ -30,8 +30,9 @@ Add library to your project.
 ```gradle
 dependencies {
     ...
-    implementation 'com.mancj:kpreference:0.1.3'
+    implementation "com.mancj:kpreference:$latestVersion"
 }
 ```
+<a href='https://bintray.com/mancj/maven/kpreference/_latestVersion'><img src='https://api.bintray.com/packages/mancj/maven/kpreference/images/download.svg'></a>
 
 # 🤩🤩🤩
